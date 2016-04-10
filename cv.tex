@@ -1,0 +1,279 @@
+%% LyX 2.0.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[10pt,a4paper,english]{moderncv}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{verbatim}
+
+
+%\definecolor{color0}{rgb}{0,0,0}% main default color, normally left to black
+%\definecolor{color1}{rgb}{0,0,0}% primary scheme color
+%\definecolor{color2}{rgb}{0,0,0}% secondary scheme color
+%\definecolor{color3}{rgb}{0,0,0}% tertiary scheme color
+
+%\documentclass[11pt,a4paper]{moderncv}
+%\moderncvtheme[blue]{casual}
+\usepackage[utf8]{inputenc}
+%\usepackage[scale=0.8]{geometry}
+%\firstname{Adam}
+%\familyname{Matan}
+%\email{adam@matan.name}
+%\homepage{http://russelljjarvis.github.io/3Drodent/web/index.html}
+
+\newcommand\Colorhref[3][cyan]{\href{#2}{\small\color{#1}#3}}
+
+
+%\end{document}
+
+%\usepackage[pdftex,breaklinks=true,colorlinks=true,
+%pdfhighlight=/O,linkcolor={color2},citecolor={color2},
+%urlcolor={color},anchorcolor={color2},bookmarksnumbered]{hyperref}
+
+%\newcommand{\defRef}[2]{\class{\hyperref[#2]{#1}}\xspace}
+%\newcommand{\typeDefRef}[2]{\textit{\hyperref[#2]{#1}}\xspace}
+%\newcommand{\absDefRef}[2]{\abstractclass{\hyperref[#2]{#1}}\xspace}
+%\newcommand{\absDefRefUpright}[2]{\abstractclassUpright{\hyperref[#2]{#1}}\xspace} %
+
+%\usepackage{hyperref}
+\setcounter{secnumdepth}{0}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\special{papersize=\the\paperwidth,\the\paperheight}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+\moderncvtheme[blue]{classic}
+% possible themes are "classic" and "casual"
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+% required
+\firstname{Russell}
+% required
+\familyname{Jarvis}
+
+% optional, remove the line if not wanted
+\title{Curriculum Vitae}
+
+% optional
+% \address{street and number}{postcode city}
+% '\\' adds a line break
+\address{225 St Georges rd, Northcote 3070, VIC Australia}
+
+% optional
+%\phone{+43(0)999 9999}
+% optional
+\mobile{+61(0)434860251}
+% optional
+%\fax{+43(0)999 7777}
+% optional
+\email{rjjarvis@asu.edu}
+% optional
+
+
+
+%\newcommand{\Linkedin}{\href{au.linkedin.com/pub/russell-jarvis/30/33a/24/}{Linkedin}\xspace}
+
+\extrainfo{ 
+%\Colorhref[grey]{https://www.neuron.yale.edu/phpBB/search.php?author\_id=14081\&sr=posts}{NEURON forum}\\
+\Colorhref[grey]{https://au.linkedin.com/pub/russell-jarvis/30/33a/24}{Linkedin}\\
+\Colorhref[grey]{https://neurocontemplations.wordpress.com/}{neuroscience blog} \\
+\Colorhref[grey]{http://russelljjarvis.github.io/3Drodent/web/index.html}{Neural Modelling Project}\\
+%repositories:bitbucket username r\_jarvis\\
+}
+\makeatother
+\usepackage{babel}
+\begin{document}
+\maketitle
+\section{Education}
+
+\cventry{2007--20015}{Graduate Master Biomedical Engineering, Bachelor Electronic Engineering}{La Trobe University}{Melbourne}{Australia}{} %{Finished course requirements, waiting to formally graduate}
+\cventry{2011}{Student Exchange}{Link{\"o}pings universitet}{Link{\"o}ping}{Sweden}{} 
+
+%La Trobe University 
+\cventry{2004--2006}{Humanities}{La Trobe University}{Melbourne}{Australia}{}
+ 
+
+\section{Awards}
+\cventry{2009}{Dean's Honours Award}{}{}{}{}
+
+
+\section{Master Thesis}
+
+
+\cvitem{Title}{\emph{Neural Network Geometry and Information Flow}}
+
+%\vspace{-0.5cm}
+
+%\cvitem{Project Website}{\begin{verbatim}{https://sites.google.com/site/networkgeometryandinformation/}}
+
+
+\cvitem{Supervisor}{Paul Junor}
+
+
+\cvitem{}{{\small %In the major engineering project within the MA Biomedical engineering course, 
+I describe the creation of a biologically informed neural network consisting of intricate and varied cell forms. %To do this I instantiated the neuron morphologies as objects in the NEURON simulation environment to be run on a parallel computer. 
+%To create the network, m
+Modelled neurons were connected together using a  parallel wiring algorithm implemented in NEURON, Python and MPI on a parallel machine. Information flow was quantified between every pair of neurons in the network using Transfer Entropy.}}%The algorithm was designed to be executed on a high performance parallel architecture machine. %The Graph structure corresponding to the network connectivity was obtained and analysed. 
+%Artificial external stimulus was provided to the network, and the resulting activity was recorded and analysed. 
+%Analysis of network activity involved the quantification of i
+%}}
+
+%The cell positions were given be the neuron atlas. 
+%wired togethor neuron morphologies that are described by the Neuron Atlas on a parallel computer, and I instantiated these morphologies as Hodgkin Huxley models in the NEURON simulation environment[2]. }}
+%\cvitem{}{$https://sites.google.com/site/networkgeometryandinformation/$}
+
+
+\section{Experience}
+
+\cventry{January 2015--June 2015}{Okinawa Institute of Science And Technology}{Research Internship, department of Computational Neuroscience}{In this research internship I designed and implemented an extension to the Model Description language nineML. The nineml extension was used to describe of ion channel dynamics and by contributions to the supporting Python library \href{http://github.com/INCF/lib9ML}{lib9ml}. %\hyperref[lib9ml]{http://github.com/INCF/lib9ML}. 
+I begun porting a large biophysically detailed model of the cerebellar cortex that is being developed by the CNU into NineML.  
+I also ported scripts for automated parameter fitting of neuronal models to run on the new HPC cluster at OIST}{}{}
+
+
+\cventry{July 2012-November 2012}{La Trobe University}{laboratory demonstrator}{As a laboratory demonstrator I clarified course work problems and I provided general support to students in use of NEURON-7.3 software for laboratories in the subject Neural Engineering: ELE4NUE}{}{}
+
+
+\cventry{January 2000 - June 2000}{Green Corps, Maclean NSW Australia}{Forest revegation/regeneration}{In Green Corps I was involved in plant propagation, plant identification, weed removal, applying round up, all for the purpose of restoring damaged rain forest regions around Maclean in Northern NSW}{}{}
+%\cventry{February 2006--\\
+%current}{Maintainer of Open Source projects}{}{}{}{Maintainer
+%of the xxx documentation}
+%\cventry{2005--2006}{Employer}{Corp. name}{City}{Country}{Description}
+
+\section{Volunteer}
+\cventry{February 2000 - June 2005}{Volunteer Experience}{Willing Workers On Organic Farms}{}{Applying permaculture principles to create long term food forests}{}
+
+\cventry{February 2000 - June 2005}{Volunteer Experience}{Friends of the Earth Bookstore and Cafe}{}{Hospitality Experience}{}
+
+
+\cventry{February 2010 - June 2010}{Volunteer Experience}{Chess Ideas}{}{volunteering at chess ideas involved teaching chess to children}{}
+
+
+
+%\section{Languages}
+
+
+%\cvlanguage{English}{Native proficiency}{}
+
+%\cvlanguage{Spanish}{Elementary}{}
+
+\section{Academic Skills}
+
+\cvitem{}{Complex problem solving. I have experience with differential equations, linear algebra and statistics, and data wrangling. Also I have experience in electrical and biological simulations.}{}
+
+\section{Computer skills, and Experience}
+
+\cvcomputer{OS}{Linux, OSX}{}{}
+\cvcomputer{Programming}{Java, BASH}{}{}
+\cvcomputer{Embedded}{C, HDL, Assembly}{}{}
+\cvcomputer{Scientific}{Python, R, MATLAB, SPICE}{}{}
+\cvcomputer{typography}{\LaTeX{}}{}{}
+\cvcomputer{Parallel}{mpi4py}{}{}
+\cvcomputer{Neuroimaging}{FSL, Python nitime}{}{}
+%\cvcomputer{Version Control}{GIT}{}{}
+
+
+\section{Interests}
+
+\cvitem{Sports and Hobbies}{{\small In my spare time I enjoy cycling, unicycling, Chess, Go and Yoga. I am also interested in meditation and gardening edible food. I have been using Linux
+ as a personal operating system since 2003.}}{}
+\cvitem{Travel}{{\small I have lived over seas in Link{\"o}ping, Sweden and Okinawa, Japan}}{}
+
+
+%\cvitem{Travelling}{{\small I like to travel.}}{}
+
+
+
+%\section{References}
+
+
+
+\section{Employment Reference}
+
+%Erik De Schutter, Professor.\\
+%Principal Investigator at Okinawa Institute of Science and Technology\\
+%Okinawa Institute of Science and Technology\\
+%Relationship: Erik was my supervisor in the research internship I recently completed at OIST.\\
+%Contact:\\
+%E: erik@oist.jp\\
+
+Thomas Close, PhD, BE.\\
+Post-doctoral research scholar\\
+Okinawa Institute of Science and Technology\\
+Relationship: Tom mentored me in the research internship I recently completed at OIST.\\
+Contact:\\
+E: tclose@oist.jp\\
+
+
+\section{Academic Reference}
+
+Paul Junor\\
+Senior Lecturer, La Trobe University.\\
+Relationship: Masters Project supervisor, and lecturer for BCH Engineering subjects\\
+T: +61 3 9479 1677
+E: P.Junor@latrobe.edu.au \\
+%Mobile. +61 \\
+
+
+Graeme D Rathbone\\
+Senior Lecturer, La Trobe University (Recently Retired).\\
+P/t Neurobioncs Project Manager, The Bionics Institute.\\
+Relationship: Graeme lectured in the unit ELE4NUE, I was the laboratory demonstrator in this unit.\\
+Bachelors Project supervisor\\
+E: grathbone3@bionicsinstitute.org\\
+Mobile. +61 417 890 055\\
+
+George Alexander\\ 
+Senior Lecturer, La Trobe University.\\
+Honorary Associate La Trobe University
+Relationship: George was the lecturer for the unit Management for Engineering. 
+Contact:\\
+E: g.alexander@latrobe.edu.au\\ 
+Mobile: +61 414 860 949\\
+\\
+Geoffrey Tobin, La Trobe University (Recently Retired).\\
+Associate Lecturer\\
+La Trobe University\\
+Relationship: Geoffrey was my lab demonstrator in the course ELE2ANI.\\
+E: zoetropo@optusnet.com.au\\
+\\
+
+%Paul Junor.\\ 
+%c
+%Contact\\
+%email: P.Junor@latrobe.edu.au\\
+%+61 3 9479 1677\\
+
+
+\section{Volunteer Reference}
+Marcus Peck\\
+Relationship: Chess Tutor chess Ideas.\\
+Contact:\\
+E: mkpeck@students.latrobe.edu.au
+Mobile: +61 423 327 335\\
+%+61 3 9459 1072\\
+
+%\section{Professional network}
+
+%\cvline{Linkedin.com}        {\Colorhref{http://www.linkedin.com/in/adamatan}             {Adam Matan}   - Professional profile and links.    }
+%\cvline{Stackoverflow.com}   {\small\href{http://stackoverflow.com/users/51197/adam-matan} {Adam Matan}   - My software questions and answers. } 
+%\cvline{twitter.com}         {\Colorhref[red]{http://twitter.com/justnoticed}{@justnoticed} - My tech tweets.}
+
+
+
+
+%\cvitem{}{[1] $http://neuromorpho.org/neuroMorpho/LS_Video.jsp$} \\
+%\cvitem{}{[2] $http://www.neuron.yale.edu/neuron/$}
+
+
+%\closesection{}{}
+
+
+
+\end{document}
